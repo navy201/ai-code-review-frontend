@@ -1,0 +1,38 @@
+body.dark {
+  background: #0f172a;
+  color: #ffffff;
+}
+
+body.dark .container {
+  background: #1e293b;
+  color: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+body.dark h1,
+body.dark h2,
+body.dark p,
+body.dark label {
+  color: white;
+}
+
+body.dark textarea {
+  background: #0f172a;
+  color: white;
+  border: 1px solid #475569;
+}
+
+body.dark textarea::placeholder {
+  color: #94a3b8;
+}
+
+body.dark .review-box {
+  background: #111827;
+  color: white;
+  border: 1px solid #334155;
+}
+
+body.dark button {
+  background: #2563eb;
+  color: white;
+}
