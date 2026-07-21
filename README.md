@@ -15,9 +15,9 @@ https://ai-code-review-backend-cmhd.onrender.com
 
 ## 👤 Demo Account
 
-Username: demo
+Username: test
 
-Password: demo@123
+Password: Test@123
 
 Or create your own account using the Register page.
 
