@@ -1,16 +1,217 @@
-# React + Vite
+# 🤖 AI-Powered Code Review Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered web application that analyzes source code, detects bugs, evaluates code quality, provides optimization suggestions, and generates detailed review reports using AI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌐 Live Demo
 
-## React Compiler
+Frontend:
+https://ai-code-review-frontend-sekt.vercel.app
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Backend API:
+https://ai-code-review-backend-cmhd.onrender.com
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👤 Demo Account
+
+Username: demo
+
+Password: demo@123
+
+Or create your own account using the Register page.
+
+---
+
+# 📌 Features
+
+- 🔐 User Registration & Login (JWT Authentication)
+- 🤖 AI Code Review
+- 🐞 Bug Detection
+- 🔒 Security Analysis
+- ⚡ Performance Suggestions
+- 📖 Readability Analysis
+- ✅ Best Practice Recommendations
+- 📊 Dashboard with Review Statistics
+- 📜 Review History
+- 📄 Download PDF Reports
+- 👤 User Profile Management
+- 🔑 Change Password
+- 🌙 Modern Responsive UI
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- Axios
+- React Router DOM
+- Framer Motion
+- Lucide React
+
+## Backend
+
+- Python
+- Django
+- Django REST Framework
+- JWT Authentication
+- SQLite
+
+## AI
+
+- OpenRouter API
+- GPT Model
+
+## Deployment
+
+- Vercel (Frontend)
+- Render (Backend)
+
+---
+
+# 📂 Project Structure
+
+Frontend
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── assets/
+ ├── App.jsx
+ └── main.jsx
+```
+
+Backend
+
+```
+api/
+reviews/
+users/
+manage.py
+requirements.txt
+```
+
+---
+
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/navy201/ai-code-review-frontend.git
+```
+
+```bash
+git clone https://github.com/navy201/ai-code-review-backend.git
+```
+
+---
+
+## Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+---
+
+## Backend Setup
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python manage.py migrate
+```
+
+```bash
+python manage.py runserver
+```
+
+---
+
+# 📊 Modules
+
+### Authentication
+
+- Register
+- Login
+- JWT Authentication
+
+### Dashboard
+
+- Total Reviews
+- Average Score
+- Highest Score
+- Lowest Score
+
+### AI Review
+
+- Upload Source Code
+- AI Analysis
+- Suggestions
+- Improved Code
+
+### History
+
+- Previous Reviews
+- AI Scores
+
+### Reports
+
+- PDF Download
+- Review Summary
+
+---
+
+# 🔒 Authentication
+
+JWT Authentication is used for secure login.
+
+Protected APIs include:
+
+- Dashboard
+- History
+- Reports
+- Profile
+- Review
+
+---
+
+# 📈 Future Improvements
+
+- Multi-language Code Review
+- Team Workspace
+- GitHub Repository Integration
+- Dark/Light Theme
+- AI Chat Assistant
+- Email Notifications
+- Review Analytics
+
+---
+
+# 👩‍💻 Author
+
+**Navya P**
+
+GitHub
+
+Frontend:
+https://github.com/navy201/ai-code-review-frontend
+
+Backend:
+https://github.com/navy201/ai-code-review-backend
+
+---
+
+# ⭐ If you like this project
+
+Please consider giving this repository a ⭐ on GitHub.
