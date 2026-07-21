@@ -7,8 +7,7 @@ An AI-powered web application that analyzes source code, detects bugs, evaluates
 ## 🌐 Live Demo
 
 Frontend:
-https://ai-code-review-frontend-sekt.vercel.app
-
+https://ai-code-review-frontend-self.vercel.app/
 Backend API:
 https://ai-code-review-backend-cmhd.onrender.com
 
