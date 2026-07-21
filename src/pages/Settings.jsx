@@ -22,7 +22,7 @@ function Settings() {
 
   try {
     const response = await axios.put(
-      "http://127.0.0.1:8000/api/profile/",
+      "https://ai-code-review-backend-cmhd.onrender.com/api/profile/",
       {
         first_name: fullName,
         email: email,

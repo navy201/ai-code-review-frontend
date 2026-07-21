@@ -20,7 +20,7 @@ function Login() {
   const loginUser = async () => {
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/token/",
+        "https://ai-code-review-backend-cmhd.onrender.com/api/token/",
         formData
       );
 

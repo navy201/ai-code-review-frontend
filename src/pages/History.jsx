@@ -14,7 +14,7 @@ function History() {
       const token = localStorage.getItem("access");
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/history/",
+        "https://ai-code-review-backend-cmhd.onrender.com/api/history/",
         {
           headers: {
             Authorization: `Bearer ${token}`,

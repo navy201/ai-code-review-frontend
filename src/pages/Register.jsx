@@ -21,7 +21,7 @@ function Register() {
   const registerUser = async () => {
     try {
       await axios.post(
-        "http://127.0.0.1:8000/api/register/",
+        "https://ai-code-review-backend-cmhd.onrender.com/api/register/",
         formData
       );
 

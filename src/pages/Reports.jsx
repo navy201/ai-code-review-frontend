@@ -14,7 +14,7 @@ function Reports() {
       console.log("Token:", token);
 
       const response = await axios.get(
-        "http://127.0.0.1:8000/api/reports/",
+        "https://ai-code-review-backend-cmhd.onrender.com/api/reports/",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -58,7 +58,7 @@ function Reports() {
                   <button
                     onClick={() =>
                       window.open(
-                        `http://127.0.0.1:8000/api/review-pdf/${report.id}/`,
+                        `https://ai-code-review-backend-cmhd.onrender.com/api/review-pdf/${report.id}/`,
                         "_blank"
                       )
                     }
