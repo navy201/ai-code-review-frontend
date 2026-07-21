@@ -22,7 +22,7 @@ function Review() {
     try {
       const token = localStorage.getItem("access");
       const response = await axios.post(
-        "http://127.0.0.1:8000/api/review/",
+        "https://ai-code-review-backend-cmhd.onrender.com/api/review/",
         {
           code: code,
         },
@@ -98,7 +98,7 @@ function Review() {
           <button
             onClick={() => {
               window.open(
-                `http://127.0.0.1:8000/api/review-pdf/${reviewId}/`,
+                `https://ai-code-review-backend-cmhd.onrender.com/api/review-pdf/${reviewId}/`,
                 "_blank"
               );
             }}
